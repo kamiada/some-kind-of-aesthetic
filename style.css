@@ -1,3 +1,6 @@
-
+body {
+  background-image: linear-gradient(to bottom, transparent 90%, #7AAEC4 9%), linear-gradient(to right, #FBFAF5 90%, #7AAEC4 10%);
+  background-size: 10px 20px, 20px 5px;
+}
 
 /*# sourceMappingURL=style.css.map */
