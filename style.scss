@@ -1,4 +1,5 @@
 @import "_variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
   background-image: linear-gradient(to bottom, transparent 90%, #7aaec4 9%),
     linear-gradient(to right, #fbfaf5 90%, #7aaec4 10%);
@@ -11,6 +12,9 @@ body {
   margin-right: 25%;
   margin-left: 25%;
   position: absolute;
+  h1 {
+    font-family: 'Poppins', sans-serif;
+  }
 }
 .banner {
   position: absolute;
@@ -28,6 +32,9 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.container_blog {
+    
+}
 .panel {
   width: 95%;
   background-color: $FrenchLilac;
@@ -36,6 +43,7 @@ body {
 }
 .pictureHolder {
   margin-top: 10px;
+  width: 280px;
 }
 .small_panel {
   width: 50%;
@@ -48,5 +56,8 @@ body {
       margin-top: 5px;
       margin-left: 10px;
       font-style: normal;
+  }
+  ul {
+    list-style-type: japanese-formal;
   }
 }
